@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.bg_img{
+    background-image: url("../images/updated_Reference-Hall.jpg");
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: mediumspringgreen;
+    text-align: center;
+}
+.bg_img h1{
+    font-size: 40px;
+}
+.bg_img p{
+    font-size: 20px;
+}
